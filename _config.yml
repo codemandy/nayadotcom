@@ -1,9 +1,9 @@
 # Mandatory settings
 
 blog_theme: light # Or use dark
-name: Chalk
+name: Nayamoll.com
 paginate: 25
-url: http://chalk.nielsenramon.com
+url:
 
 
 # Optional settings
@@ -11,8 +11,8 @@ url: http://chalk.nielsenramon.com
 about_enabled: true # Change to true if you wish to show an icon in the navigation that redirects to the about page
 discus_identifier: chalk-1 # Add your Disqus identifier
 ga_analytics: UA-28631876-6 # Add your GA Tracking Id
-local_fonts: false # Change to true if you wish to use local fonts
-rss_enabled: true # Change to false if not
+local_fonts: true # Change to true if you wish to use local fonts
+rss_enabled: false # Change to false if not
 scrollappear_enabled: true # Change to false to disable
 tag_nav_enabled: false # Change to true if you wish to show an additional 'tag-list' navigation below the header
 theme_toggle: false # Change to true if you wish to show an icon in the navigation for dynamic theme toggling

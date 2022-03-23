@@ -2,6 +2,9 @@
 
 Chalk is a high quality, completely customizable, performant and 100% free blog template for Jekyll.
 
+Configfile:
+http://chalk.nielsenramon.com/posts/configuring-chalk
+
 ## Overview
 
 Features:
