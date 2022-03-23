@@ -7,11 +7,15 @@
 
 $sans-serif: "LifeT", Helvetica, Arial, sans-serif;
 $serif: "LifeT", Courier, serif;
-$base-font-family: $LifeT;
+$base-font-family: $sans-serif;
 $base-font-weight: 400;
 $base-font-weight-bold: 700;
 
 // Colors
+// =============================================================================
+
+
+// spacers
 // =============================================================================
 
 // Brand colors
@@ -34,8 +38,8 @@ $negative-gutter: 0 - $gutter;
 
 // Font sizes
 
-$base-font-size: 16px;
-$base-line-height: 1.8;
+$base-font-size: 14px;
+$base-line-height: 1.28;
 
 // Box sizes
 
