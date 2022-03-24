@@ -3,9 +3,9 @@
 {% include head.html %}
 <body>
   <main>
+    {% include navigation.html %}
     <div class="grid grid-centered">
       <div class="grid-cell">
-        {% include navigation.html %}
         <article class="article {% if site.scrollappear_enabled %}scrollappear{% endif %}">
           <header class="article-header">
             <h1>{{ page.title }}</h1>
