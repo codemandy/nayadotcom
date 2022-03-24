@@ -1,5 +1,5 @@
 // =============================================================================
-// Header
+// Header // Navigation
 // =============================================================================
 
 .header-nav {
@@ -11,8 +11,8 @@
 .header-logo {
   // display: inline-block;
   font-family: $serif;
-  font-size: 16px;
-  font-weight: 700;
+  font-size: 20px;
+  font-weight: 400;
   color: $header-logo-color;
   text-decoration: none;
 }
@@ -30,8 +30,11 @@
       margin-left: 0;
     }
     a {
-      font-size: 18px;
+      font-family: $serif;
+      font-size: 20px;
+      font-weight: 400;
       color: $header-link-color;
+      text-decoration: none;
       cursor: pointer;
       svg {
         width: 16px;
@@ -60,6 +63,10 @@
     }
   }
 }
+
+
+
+// Small Devices
 
 @include breakpoint(extra-small) {
   .header-nav {
