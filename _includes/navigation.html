@@ -1,13 +1,24 @@
 <nav class="header-nav {% if site.scrollappear_enabled %}scrollappear{% endif %}">
   <a href="{{ '/' | relative_url }}" class="header-logo" title="{{ site.name }}">{{ site.name }}</a>
   <ul class="header-links">
-    {% if site.about_enabled == true %}
+
       <li>
-        <a href="{{ 'about' | relative_url }}" title="About me">
-          {% include svg-icon.html icon="about" %}
-        </a>
+        <a href="{{ 'about' | relative_url }}" title="Choreography">Choreography</a>
       </li>
-    {% endif %}
+    <li>
+      <a href="{{ 'about' | relative_url }}" title="Collective works">Collective works</a>
+    </li>
+    <li>
+      <a href="{{ 'about' | relative_url }}" title="Dramaturgy">Dramaturgy</a>
+    </li>
+    <li>
+      <a href="{{ 'about' | relative_url }}" title="About">About</a>
+    </li>
+
+
+
+<!--
+
     {% if site.social.twitter %}
       <li>
         <a href="https://twitter.com/{{ site.social.twitter }}" rel="noreferrer noopener" target="_blank" title="Twitter">
@@ -191,4 +202,4 @@
         <li><a href="{{ 'tag/' | relative_url }}{{ tag[0] }}">{{ tag[0] | capitalize }}</a></li>
     {% endfor %}
   </ul>
-{% endif %}
+{% endif %} -->
