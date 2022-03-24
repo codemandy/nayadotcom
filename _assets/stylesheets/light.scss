@@ -5,6 +5,13 @@
 // Variables
 // =============================================================================
 
+
+// Theme Colors:
+$naya-bg-color: #F5F5F5;
+$naya-normal-black: #000000;
+$naya-normal-blue: #0038FF;
+
+
 // Shades of gray
 
 $black: #000;
@@ -19,7 +26,7 @@ $white: #fff;
 
 // Font colors
 
-$base-font-color: $gray-dark;
+$base-font-color: $naya-normal-blue;
 $base-accent-color: $gray-dark;
 $base-accent-highlighted-color: darken($base-accent-color, 15);
 
@@ -29,7 +36,7 @@ $base-border-color: $gray-lightest;
 
 // Page specific colors
 
-$body-background: $white;
+$body-background: $naya-bg-color;
 $header-logo-color: $black;
 $header-link-color: $gray-darker;
 $header-link-color-hover: $gray-darkest;
