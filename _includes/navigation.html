@@ -1,7 +1,10 @@
 <nav class="header-nav {% if site.scrollappear_enabled %}scrollappear{% endif %}">
-  <a href="{{ '/' | relative_url }}" class="header-logo" title="{{ site.name }}">{{ site.name }}</a>
   <ul class="header-links">
 
+      <li>
+        <a href="{{ '/' | relative_url }}" title="Home">Naya Moll</a>
+      </li>
+    <li>
       <li>
         <a href="{{ 'about' | relative_url }}" title="Choreography">Choreography</a>
       </li>
@@ -14,7 +17,8 @@
     <li>
       <a href="{{ 'about' | relative_url }}" title="About">About</a>
     </li>
-
+  </ul>
+</nav>
 
 
 <!--
