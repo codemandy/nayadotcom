@@ -1,9 +1,9 @@
 <nav class="header-nav {% if site.scrollappear_enabled %}scrollappear{% endif %}">
-  <ul class="header-links">
+  <!-- <ul class="header-links"> -->
 
 
 
-      <li class="home-link">
+      <!-- <li class="home-link">
         <a href="{{ '/' | relative_url }}" title="Home">Naya Moll</a>
       </li>
     <li>
@@ -20,8 +20,15 @@
       <a href="{{ 'about' | relative_url }}" title="About">About</a>
     </li>
   </ul>
-</nav>
+</nav> -->
 
+<!-- <nav> -->
+  {% for item in site.data.navigation.items %}
+    <a href="{{ site.baseurl }}{{ item.link }}" {% if page.url == item.link %}style="color: red;"{% endif %}>
+      {{ item.name }}
+    </a>
+  {% endfor %}
+</nav>
 
 <!--
 
