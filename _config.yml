@@ -21,7 +21,7 @@ defaults:
 blog_theme: light
 name: Naya Moll
 paginate: 25
-url: 
+url:
 about_enabled: true
 discus_identifier: chalk-1
 ga_analytics: UA-28631876-6
@@ -32,27 +32,27 @@ tag_nav_enabled: false
 theme_toggle: false
 social:
   dribbble: nielsenramon
-  facebook: 
-  flickr: 
+  facebook:
+  flickr:
   github: nielsenramon
-  linkedin: 
+  linkedin:
   twitter: nielsenramon
-  email: 
-  bitcoin: 
-  ethereum: 
-  gitlab: 
-  youtube: 
-  twitch: 
-  discord: 
-  tumblr: 
-  bitbucket: 
-  docker: 
-  instagram: 
-  keybase: 
-  medium: 
-  spotify: 
-  stackoverflow: 
-  steam: 
+  email:
+  bitcoin:
+  ethereum:
+  gitlab:
+  youtube:
+  twitch:
+  discord:
+  tumblr:
+  bitbucket:
+  docker:
+  instagram:
+  keybase:
+  medium:
+  spotify:
+  stackoverflow:
+  steam:
 assets:
   plugins:
     css:
@@ -74,7 +74,7 @@ exclude:
 - package.json
 - package-lock.json
 - README.md
-- vendor/
+- vendor/bundle/
 - yarn.lock
 plugins:
 - jekyll-assets
