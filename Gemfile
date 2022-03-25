@@ -1,6 +1,7 @@
 source "https://rubygems.org"
 
 gem "autoprefixer-rails"
+gem "jquery-ui-rails"
 gem "html-proofer"
 gem "image_optim"
 gem "jekyll"
@@ -14,4 +15,3 @@ gem "sprockets", "~> 3.7"
 gem "uglifier"
 gem "webrick"
 gem "kramdown-parser-gfm"
-gem 'jquery-rails'
