@@ -14,3 +14,4 @@ gem "sprockets", "~> 3.7"
 gem "uglifier"
 gem "webrick"
 gem "kramdown-parser-gfm"
+gem 'jquery-rails'
