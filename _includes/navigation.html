@@ -1,20 +1,26 @@
 <nav class="header-nav {% if site.scrollappear_enabled %}scrollappear{% endif %}">
-  <a href="{{ '/' | relative_url }}" class="header-logo" title="{{ site.name }}">{{ site.name }}</a>
   <ul class="header-links">
 
-      <li>
-        <a href="{{ 'about' | relative_url }}" title="Choreography">Choreography</a>
+
+
+      <li class="home-link">
+        <a href="{{ '/' | relative_url }}" title="Home">Naya Moll</a>
       </li>
     <li>
-      <a href="{{ 'about' | relative_url }}" title="Collective works">Collective works</a>
+      <li>
+        <a class="mid-link" href="{{ 'about' | relative_url }}" title="Choreography">Choreography</a>
+      </li>
+    <li>
+      <a class="mid-link" href="{{ 'about' | relative_url }}" title="Collective works">Collective works</a>
     </li>
     <li>
-      <a href="{{ 'about' | relative_url }}" title="Dramaturgy">Dramaturgy</a>
+      <a class="mid-link" href="{{ 'about' | relative_url }}" title="Dramaturgy">Dramaturgy</a>
     </li>
-    <li>
+    <li class="about-link">
       <a href="{{ 'about' | relative_url }}" title="About">About</a>
     </li>
-
+  </ul>
+</nav>
 
 
 <!--
