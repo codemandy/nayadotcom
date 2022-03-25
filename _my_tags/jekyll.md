@@ -1,4 +1,5 @@
 ---
-slug: jekyll
+title: Jekyll
 name: Jekyll
 ---
+

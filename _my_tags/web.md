@@ -1,4 +1,5 @@
 ---
-slug: web
+title: Web
 name: Web
 ---
+

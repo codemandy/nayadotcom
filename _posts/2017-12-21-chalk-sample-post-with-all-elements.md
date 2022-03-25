@@ -1,9 +1,12 @@
 ---
+title: Chalk sample post with all elements
+date: 2017-12-21 00:00:00 Z
+tags:
+- design
+- jekyll
 layout: post
-title: "Chalk sample post with all elements"
-description: "Have a look at all the predesigned elements you can use in Chalk."
-thumb_image: "documentation/sample-image.jpg"
-tags: [design, jekyll]
+description: Have a look at all the predesigned elements you can use in Chalk.
+thumb_image: documentation/sample-image.jpg
 ---
 
 Chalk uses the default Jekyll syntax highlighting gem Rouge. It has a customized style for both light and dark theme.
